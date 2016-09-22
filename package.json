@@ -1,0 +1,32 @@
+{
+  "name": "eslint-boilerplate",
+  "version": "1.0.0",
+  "description": "eslint boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "lint": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorsh/eslint-boilerplate.git"
+  },
+  "keywords": [
+    "eslint",
+    "linter",
+    "javascript"
+  ],
+  "author": "Jorge Arenas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorsh/eslint-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jorsh/eslint-boilerplate#readme",
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0"
+  }
+}
